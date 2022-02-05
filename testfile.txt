@@ -1,1 +1,1 @@
-this is an example
+THIS IS TEST INPUT FROM SCRIPT
