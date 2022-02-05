@@ -3,7 +3,10 @@
 
 name: Python application
 
-on: [push]
+on:
+  push:
+    paths:
+      - 'textfile.txt'
 
 jobs:
       build:
