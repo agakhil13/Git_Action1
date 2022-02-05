@@ -1,7 +1,10 @@
 import os
 import subprocess
+import datetime
 data = os.environ.get('TEST')
-fp = open('testfile.txt', 'w')
+fp = open('testfile.txt', 'a')
+fp.write("=================================================================================")
+fp.write("Task Date: "+ str(datetime.datetime.now()))
 fp.write("THIS IS TEST INPUT FROM SCRIPT")
 fp.close()
 print("\n======================= Push changes to remote =======================")
