@@ -1,4 +1,0 @@
-
-=================================================================================
-Task Date: 2022-02-12 09:49:10.887453
-THIS IS TEST INPUT FROM SCRIPT value of Secret: Secret Value
