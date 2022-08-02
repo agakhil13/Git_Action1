@@ -9,7 +9,7 @@ fp.write("THIS IS TEST INPUT FROM SCRIPT value of Secret: " + data)
 fp.close()
 print("\n======================= Push changes to remote =======================")
 print("Set git config...")
-subprocess.Popen(["git", "config", "--global", "user.name", "github-actions[bot]"])
+subprocess.Popen(["git", "config", "--global", "user.name", "Devang-Tomar"])
 subprocess.Popen(["git", "config", "--global", "user.email", "41898282+github-actions[bot]@users.noreply.github.com"])
 
 print("Push to remote...")
